@@ -37,6 +37,10 @@ Grandes telas: acima de 1200px
         width: 70%;
     }
 
+    section#login > div#form > p {
+        font-size: 0.9em;
+    }
+
 }
 
 @media screen and (min-width: 1024px) {
@@ -60,6 +64,10 @@ Grandes telas: acima de 1200px
         float: left;
         width: 50%;
 
+    }
+
+    section#login > div#form > p {
+        font-size: 1em;
     }
 }
 

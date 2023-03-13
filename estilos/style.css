@@ -53,5 +53,6 @@ section#login > div#form > h1 {
 }
 
 section#login > div#form > p {
+    font-size: 0.8em;
     margin: 10px;
 }
