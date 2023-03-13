@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+/* Cores: 
+Lilás escuro: #34005C
+Lilás mais claro: #894BE3
+*/
+
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body, html {
+    background-color: #55296B;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;   /* Tudo que estiver fora da borda ficará escondido */
+
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.521);
+}
+
+section#login > div#image {
+    background: #55296B url(../assets/entrada.jpg) no-repeat;
+    background-size: cover;
+    background-position: right center;
+    height: 200px;
+}
+
+form > input {
+    display: block;
+}
+
+div#form > h1 {
+    margin-top: 5px;
+    text-align: center;
+}
+
+div#form > p {
+    margin: 10px;
+}
